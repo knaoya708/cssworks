@@ -1,0 +1,99 @@
+#layoutbox{
+	display: block;
+	margin-left: 227px;
+	margin-right: 227px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.header{
+	position: static;
+	width: 790px;
+	height: 60px;
+	padding: 10px;
+	background: lightskyblue; 
+}
+#menu{
+	color: white;
+	width: 180px;
+	height: 130px;
+	padding: 10px;
+	background: blue;
+	float: left;
+	margin: 0;
+	border: 0;
+}
+#main{
+	width: 590px;
+	height:130px;
+	padding: 10px;
+	background: lightcyan;
+	float: left;
+	margin: 0;
+	border: 0;
+}
+ul{
+	display: block;
+	width: 810px;
+	height: 200px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+ul>li{
+	color: white;
+	list-style-type: none; 
+	width: 250px;
+	height: 180px;
+	padding: 10px;
+	border: 0px;
+	margin: 0;
+	float: left;
+}
+ul>li:nth-child(1){
+	background: lightpink;
+}
+ul>li:nth-child(2){
+	background: deeppink;
+}
+ul>li:nth-child(3){
+	background: purple;
+}
+article{
+	display: block;
+	width: 810px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+article>p{ 
+	width: 142px;
+	height: 80px;
+	padding: 10px;
+	border: 0px;
+	margin: 0;
+	float: left;
+}
+article>p:nth-of-type(1){
+	background: mistyrose;
+}
+article>p:nth-of-type(2){
+	background: aquamarine;
+}
+article>p:nth-of-type(3){
+	background: lavender;
+}
+article>p:nth-of-type(4){
+	background: lightyellow;
+}
+article>p:nth-of-type(5){
+	background: lightcyan;
+}
+footer{
+	color: white;
+	background: black;
+	width: 790px;
+	height: 20px;
+	padding: 10px;
+	clear: both;
+}

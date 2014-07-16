@@ -1,0 +1,23 @@
+#samplebox{
+	margin-left: 160px;
+	margin-right: 160px;
+	border: 0;
+	padding: 30px;
+}
+#chumidasi{
+	margin: 10px;
+}
+h1{
+	color: blue;
+	padding-left: 10px;
+	border-top: 5px solid blue;
+	background: lightblue;
+
+}
+h2{
+	margin-left: -10px;
+	padding-left: 15px;
+	border-left: 5px solid blue;
+	color: blue;
+	background: lightgray;
+}
