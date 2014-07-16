@@ -1,7 +1,7 @@
 #main p:nth-child(3){
-	color: red;
+	color:red;
 }
 
-.stripe li:nth-child(2){
-	color: red;
+.stripe li:nth-child(2n){
+	color:green;
 }

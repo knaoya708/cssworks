@@ -1,0 +1,7 @@
+#entry input:enabled{
+	background: lightyellow;
+}
+
+#entry input:disabled{
+	background: lightgray;
+}

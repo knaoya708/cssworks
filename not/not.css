@@ -1,0 +1,6 @@
+.header:not(h1){
+	border:1px solid gray;
+}
+p:not(.sample){
+	color: red;
+}
