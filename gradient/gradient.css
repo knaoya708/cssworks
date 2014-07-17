@@ -15,7 +15,8 @@
 	background-image: linear-gradient(yellow, cyan);
 }
 .box3{
-	background-image: -webkit-linear-gradient: (linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
-	background-image: -o-linear-gradient: (top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
-	background-image: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+background: #d0e4f7; /* Old browsers */
+background: -webkit-linear-gradient(#d0e4f7 0%, #539fe1 30%, #0a77d5 70%, #87bcea 100%);
+background: -o-linear-gradient(#d0e4f7 0%, #539fe1 30%, #0a77d5 70%, #87bcea 100%);
+background: linear-gradient(#d0e4f7 0%, #539fe1 30%, #0a77d5 70%, #87bcea 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
 }
