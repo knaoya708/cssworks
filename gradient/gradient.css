@@ -1,0 +1,21 @@
+[class^=box]{
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	float: left;
+}
+.box1{
+	background-image: -webkit-linear-gradient: (#fff , #f00);
+	background-image: -o-linear-gradient: (#fff, #f00);
+	background-image: linear-gradient(#fff, #f00);
+}
+.box2{
+	background-image: -webkit-linear-gradient: (yellow , cyan);
+	background-image: -o-linear-gradient: (yellow, cyan);
+	background-image: linear-gradient(yellow, cyan);
+}
+.box3{
+	background-image: -webkit-linear-gradient: (linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+	background-image: -o-linear-gradient: (top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background-image: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+}
