@@ -1,0 +1,15 @@
+.grid{
+	display: -webkit-flex;
+	display: flex;
+}
+.col{
+	background: #CCC;
+	padding: 30px;
+}
+.fluid{
+	flex: 1;
+}
+.fixed{
+	background: red;
+	width: 400px
+}
