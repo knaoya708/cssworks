@@ -1,0 +1,15 @@
+#boxA{
+	background: lightpink;
+	-webkit-transition-property: background-color;
+	-o-transition-property: background-color;
+	transition-property: background-color;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+#boxA:hover{
+	background-color: red;
+	}
