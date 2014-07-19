@@ -1,0 +1,9 @@
+[class^=btn]{
+	width: 200px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	margin: 10px auto;
+}
