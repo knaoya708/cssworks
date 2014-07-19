@@ -1,0 +1,12 @@
+body{
+	padding-top: 30px;
+	background: white;
+}
+
+img{
+	vertical-align: bottom;
+}
+#wrap{
+	width: 200px;
+	margin: 0 auto;
+}
